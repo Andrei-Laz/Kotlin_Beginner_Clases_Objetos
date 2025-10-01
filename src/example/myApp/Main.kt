@@ -18,6 +18,14 @@ fun buildAquariums() {
     myAquarium3.printSize()
     //Using just the default constructor method Kotlin can create different objects with
     //different parameters
+
+    val aquarium4 = Aquarium(numberOfFish = 29)
+    aquarium4.printSize()
+
+    val aquarium5 = Aquarium(numberOfFish = 29)
+    aquarium5.printSize()
+    aquarium5.volume = 70
+    aquarium5.printSize()
 }
 
 fun main () {
